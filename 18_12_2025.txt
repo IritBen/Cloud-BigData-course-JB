@@ -1,0 +1,24 @@
+git remote add origin (Name of the repository)
+
+git remote -v : check to which reomte repository I am connected
+
+git pull : fetch + check if there is a difference + Merge
+
+git fetch : download all changes but don't merge it to my local repository yet
+
+git commit --amend : fix my last commit message - overwrite the previous commit
+
+git log : History of all our commits
+
+Merge \ Rebase : Merge is on the master. Rebase is on the branch. Rebase - change the master to our branch after we did the push
+
+Python :
+
+print("My age is" , age) : age is number and the comma (,) is making it possible to concat string to number
+
+print(f"My name us {name} and my age is {age})
+
+def add(a,b):
+    return a+branch
+
+print("bla", end = "") + print("bli") the output will be blabli. the end "" changes the default from \n to ""

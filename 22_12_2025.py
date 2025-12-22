@@ -59,6 +59,15 @@
 #else:
 #    print("You stay dry.")
 
+# Ctrl + Shift + L - Can choose multiple instances of the same word to edit at once
 
+
+#Data Structure:
+
+#Lists - Can change inside it : [1,2,5]. can put few data types in the same list.
+#Tuples - Special for python: (1,7,8). Cannot change inside it. Can put few data types in the same tuple.
+#dictionaries - Key value pairs: {'name': 'John', 'age': 30}. Can change inside it.
+#Sets - Unique values only: {1,2,3}. Can change inside it.
+#Strings - Text data: "Hello, World!". Can change inside it.
 
 
