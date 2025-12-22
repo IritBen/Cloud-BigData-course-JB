@@ -1,0 +1,36 @@
+WSL - Windows Linux
+
+TBD - Trunk based development
+
+Commands in Git Bash:
+
+pwd - איפה אני נמצא כרגע
+
+Shift + Insert - paste
+
+bash - language
+linux - machine
+
+ls - list of files in my location
+
+cd = change directory: cd Desktop/
+
+cd.. - take me one folder back
+
+git init - create local repository
+
+git config --global user.name "IritB"
+git config --global user.email "jjjj"
+
+echo "Hello" > test.txt - creating txt file named test with "Hello" inside
+
+cat test.txt - see whats written in the file
+
+touch test_2.txt - create empty file
+
+nano test_2.txt - to edit existing file
+
+echo "Welcome class" >> test_2.txt - Add this to the existing file
+
+
+
