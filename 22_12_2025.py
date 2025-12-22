@@ -70,4 +70,14 @@
 #Sets - Unique values only: {1,2,3}. Can change inside it.
 #Strings - Text data: "Hello, World!". Can change inside it.
 
+l1 = [1,2,3]
 
+print(l1[-1])
+
+numbers = [1,2,3]
+
+counter = 0 
+
+while counter < len(numbers):
+    print(numbers[counter])
+    counter += 1
