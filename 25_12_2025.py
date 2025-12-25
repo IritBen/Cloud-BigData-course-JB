@@ -1,3 +1,5 @@
+import pprint
+
 ##########
 ###LIST###
 ##########
@@ -63,36 +65,49 @@
 
 # can't be changed
 
-t1 = (1,2,3,3)
+# t1 = (1,2,3,3)
 
-print(t1.count(3))
+# print(t1.count(3))
 
-print(t1.index(1))
+# print(t1.index(1))
 
-print(0 in t1)
+# print(0 in t1)
 
 
 #########
 ###SET###
 #########
 
-s1 = {1,2,3,3,4}
+# s1 = {1,2,3,3,4}
 
-s2 = {5,6,7,8,1}
+# s2 = {5,6,7,8,1}
 
-print(s1)   # no duplicates
+# print(s1)   # no duplicates
 
-print(s1.symmetric_difference(s2))
+# print(s1.symmetric_difference(s2))
 
 
 ################
 ###DICTIONARY###
 ################
 
-d1 = {"Name": "Alice",
-      "Age": 25}
+# d1 = {"Name": "Alice",
+#       "Age": 25,
+#       "Occupation": "Engineer",
+#       "skills": ["Python", "C++", "Java"]}
 
-print(d1)
+# print(d1)
+
+# pprint.pprint(d1)  # pretty print
+
+# pprint.pprint(d1["skills"])
+
+# print(d1.keys())
+
+# print(d1.values())
+
+# print(d1.items())
+
 
 
 
