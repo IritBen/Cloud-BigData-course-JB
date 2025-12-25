@@ -108,12 +108,71 @@ import pprint
 
 # print(d1.items())
 
+# print(d1.get("Skills"))
 
-################
-###FUNCTION#####
-################
-
+# print(d1["Skills"])
 
 # while True:
 #     validEmail = str(input("Enter your personal email: "))
-#     if validEmail.strip().lower()
+#     if validEmail.strip().lower().endswith("@gmail.com"):
+#         print("Valid email entered:", validEmail)
+#         break
+#     else:
+#         print("Invalid email. Please enter a Gmail address ending with '@gmail.com'.")
+
+
+# emails = ["ac.il", "office.com"]
+# attempts = 0
+
+# while True:
+#     validEmail = str(input("Enter your personal email: "))
+#     if not any(validEmail.strip().lower() for email in emails):
+#         print("Valid email entered:", validEmail)
+#         break
+#     elif attempts < 4:
+#         print("Too many invalid attempts. Exiting.")
+#         break
+#     else:
+#         print("Invalid email. Please enter a valid email address.")
+#         attempts += 1
+    
+
+
+###############
+###FUNCTION####
+###############
+
+# def add(a, b) -> int:  
+#     res = a + b
+#     return res
+
+# x = add(1,2)
+
+# print(x)
+
+# def sum_all(*args) -> int:
+#     total = 0
+#     for num in args:
+#         total += num
+#     return total
+
+# print(sum_all(1,2,3,4,5))
+
+# def connect(**config):
+#     if "host" not in config:
+#         print("Missing host.")
+#         return 
+#     host = config["host"]
+#     port = config.get("port", 3306)
+    
+#     print(f"Connecting to {host} on port {port}...")
+
+# connect(host="localhost", port=5432)
+
+# def typeerror(x,y):
+#     try:
+#         return x + y
+#     except(TypeError):
+#         return None
+
+# print(typeerror(1,2))  # Output: 20
