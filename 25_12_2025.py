@@ -109,6 +109,11 @@ import pprint
 # print(d1.items())
 
 
+################
+###FUNCTION#####
+################
 
 
-
+# while True:
+#     validEmail = str(input("Enter your personal email: "))
+#     if validEmail.strip().lower()
