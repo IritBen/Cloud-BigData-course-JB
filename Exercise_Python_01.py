@@ -293,18 +293,18 @@
 
 # 23
 
-a1 = int(input("Enter first number: "))
-b1 = int(input("Enter second number: "))
-c1 = int(input("Enter third number: "))
-a2 = int(input("Enter fourth number: "))
-b2 = int(input("Enter fifth number: "))
-c2 = int(input("Enter sixth number: "))
+# a1 = int(input("Enter first number: "))
+# b1 = int(input("Enter second number: "))
+# c1 = int(input("Enter third number: "))
+# a2 = int(input("Enter fourth number: "))
+# b2 = int(input("Enter fifth number: "))
+# c2 = int(input("Enter sixth number: "))
 
-x = ((c1 * b2) - (c2 * b1)) / ((a1 * b2) - (a2 * b1))
-print (" The value of x is: ", int(x))
+# x = ((c1 * b2) - (c2 * b1)) / ((a1 * b2) - (a2 * b1))
+# print (" The value of x is: ", int(x))
 
-y = ((a1 * c2) - (a2 * c1)) / ((a1 * b2) - (a2 * b1))
-print (" The value of y is: ", int(y))
+# y = ((a1 * c2) - (a2 * c1)) / ((a1 * b2) - (a2 * b1))
+# print (" The value of y is: ", int(y))
 
 
 
