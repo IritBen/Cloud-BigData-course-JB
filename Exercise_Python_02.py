@@ -52,15 +52,29 @@
 
 # 5
 
-def square(a,b):
-    total = a
-    counter = b
-    while counter > 1:
-        total = total * a
-        counter -= 1
-    print(f'the answer is: {total}')
+# def square(a,b):
+#     total = a
+#     counter = b
+#     while counter > 1:
+#         total = total * a
+#         counter -= 1
+#     print(f'the answer is: {total}')
 
-square(2,4)
+# square(2,4)
+
+# 6
+
+# def bigger_discount():
+#     return int(input("Decide the discount: "))
+
+# def discount(price):
+#     if price > 1000:
+#         return price - (bigger_discount() / 100 * price)
+#     else:
+#         return (0.9 * price)
+
+# final_price = discount(2000)
+# print(f'The price after discount is: {final_price}')
 
 
         
