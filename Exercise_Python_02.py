@@ -23,17 +23,25 @@
 
 # 3
 
-def num_of_characters(num):
-    counter = 0
-    while abs(num / 10) >= 1:
-        counter += 1
-        num = num / 10
-    return counter
+def num_of_characters():
+    while True:
+        a = float(input("Insert a number: "))
+        if a == -999:
+            break
+        counter = 1
+        temp = a
+        while abs(temp) >= 10:
+            counter += 1
+            temp = temp / 10
+        print(counter)
+        
+num_of_characters()
+                     
 
-num = int(input("Insert a number: "))
 
-while num != -999:
-    num_of_characters(num)
+
+
+
 
 
 
