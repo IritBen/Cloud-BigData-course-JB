@@ -1,129 +1,72 @@
 # 1
 
-# def is_positive(a):
-#     if a > 0:
-#         print(f"the number {a} is positive")
-#     elif a == 0:
-#         print(f"the number {a} is either negative nor positive")
+# def check_double_and_positive():
+#     num = int(input("Insert a number: "))
+#     if num % 2 == 0 and num > 0:
+#         print('The number is positive and double')
 #     else:
-#         print(f"the number {a} is negative")
+#         print('The number is not positive and double')
 
-
-# is_positive(5)
-# is_positive(0)
-# is_positive(-1)
-
-# 2
-
-# def who_won(a,b):
-#     if a > b:
-#         print ("Team A won!")
-#     elif a == b:
-#         print ("There was even")
-#     else:
-#         print("Team B won!")
-
-# a = int(input("How many goals A team scored?: "))
-# b = int(input("How many goals B team scored?: "))
-# who_won(a,b)
-
-# def who_won():
-#     a = int(input("How many goals A team scored?: "))
-#     b = int(input("How many goals B team scored?: "))
-#     if a > b:
-#         print ("Team A won!")
-#     elif a == b:
-#         print ("There was even")
-#     else:
-#         print("Team B won!")
-
-# who_won()
+# check_double_and_positive()
 
 # 3
 
-# def did_pass():
-#     submitted_all_exercises = int(input("Did the student submitted all? "))
-#     if submitted_all_exercises == 0:
-#         print("The student didn't pass")
-#     elif int(input("What is the grade? ")) >= 60:
-#         print("The student passed")
+# def is_two_digit():
+#     number = int(input("Enter a number: "))
+#     if number in range(10,100):
+#         print('Two digits')
 #     else:
-#         print("The student didn't pass")
+#         print('Not 2 digits')
 
-# did_pass()
+# is_two_digit()
+
 
 # 4
 
-# import math
+# def how_much_to_pay():
+#     duration_in_years = float(input("How many years with insurance? "))
+#     num_of_claims = int(input("How many claims? "))
+#     premium_amount = int(input("What is the premium ? "))
 
-# def check_if_0(a):
-#     if a != 0:
-#         result1 = True
+#     if duration_in_years > 5 and num_of_claims <= 10:
+#         Total_Price = (premium_amount * 0.85)
+#         Total_Price = format(Total_Price, ".2f")
 #     else:
-#         result1 = False
-#     return result1
+#         Total_Price = premium_amount
+#     return Total_Price
 
-# def check_if_greater_or_equal_o(a,b,c):
-#     if ((b*b)- (4*a*c)) >= 0:
-#         result2 = True
-#     else:
-#         result2 = False
-#     return result2
-
-# a = float(input("Enter number for a: "))
-# b = float(input("Enter number for b: "))
-# c = float(input("Enter number for c: "))
-
-# result_1 = check_if_0(a)
-# result_2 = check_if_greater_or_equal_o(a,b,c)
-
-
-# if not result_1:
-#     print('This is not ok')
-# elif result_1 and result_2:
-#     x1 = (-b + math.sqrt((b*b)- (4*a*c))) / 2*a
-#     x2 = (-b - math.sqrt((b*b)- (4*a*c))) / 2*a
-#     print(f'x1 = {x1}')
-#     print(f'x2 = {x2}')
+# result = how_much_to_pay()
+# print(f"The final price is {result}")
 
 # 5
 
-# import math
+# def how_much_to_pay():
+#     duration_in_years = float(input("How many years with insurance? "))
+#     num_of_claims = int(input("How many claims? "))
+#     premium_amount = int(input("What is the premium ? "))
 
-# def check_if_0(a):
-#     if a != 0:
-#         result1 = True
+#     if duration_in_years > 5 or num_of_claims <= 10:
+#         Total_Price = (premium_amount * 0.85)
+#         Total_Price = format(Total_Price, ".2f")
 #     else:
-#         result1 = False
-#     return result1
+#         Total_Price = premium_amount
+#     return Total_Price
 
-# def check_if_greater_or_equal_o(a,b,c):
-#     if ((b*b)- (4*a*c)) >= 0:
-#         result2 = True
+# result = how_much_to_pay()
+# print(f"The final price is {result}")
+
+# 6
+
+# def is_leap_year():
+#     year = int(input("Insert a year num: "))
+#     if year % 400 == 0:
+#         print(f" {year} is a leap year")
+#     elif year % 100 == 0 and year % 400 == 0:
+#         print(f" {year} is a leap year")
+#     elif year % 4 == 0 and year % 100 != 0:
+#         print(f" {year} is a leap year")
 #     else:
-#         result2 = False
-#     return result2
+#         print(f" {year} is not a leap year")
 
-# a = float(input("Enter number for a: "))
-# b = float(input("Enter number for b: "))
-# c = float(input("Enter number for c: "))
-
-# result_1 = check_if_0(a)
-# result_2 = check_if_greater_or_equal_o(a,b,c)
-
-
-# if not result_1:
-#     if b == 0:
-#         print("Its not ok")
-#     else:
-#         x1 = (-c / b)
-#         print(f'x1 = {x1}')
-# elif result_1 and not result_2:
-#     print("Its not ok")
-# elif result_1 and result_2:
-#     x1 = (-b + math.sqrt((b*b)- (4*a*c))) / 2*a
-#     x2 = (-b - math.sqrt((b*b)- (4*a*c))) / 2*a
-#     print(f'x1 = {x1}')
-#     print(f'x2 = {x2}')
-
+# is_leap_year()
 
