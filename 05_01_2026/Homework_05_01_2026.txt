@@ -1,0 +1,13 @@
+_Go into this website https://www.w3resource.com/python-exercises/oop/index.php#google_vignette (This is a great resource!)
+Do the first 3:
+1. Circle Class for Area and Perimeter
+Write a Python program to create a class representing a Circle. Include methods to calculate its area and perimeter.
+2. Person Class with Age Calculation
+Write a Python program to create a person class. Include attributes like name, country and date of birth. Implement a method to determine the person's age.
+3. Calculator Class for Basic Arithmetic Operations
+Write a Python program to create a calculator class. Include methods for basic arithmetic operations.
+6. Stack Data Structure Class
+Write a Python program to create a class representing a stack data structure. Include methods for pushing and popping elements.
+This is stack - https://www.geeksforgeeks.org/dsa/stack-data-structure/
+ 
+Use the customer_complete.py and it's Customer class to reimplement the Bank class, **AFTER** you finsihed and **CHECKED** check to see my implementation in bank_complete.py
