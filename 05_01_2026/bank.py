@@ -48,4 +48,4 @@ if __name__ == '__main__':
     jb.withdrawal_client(2000, "Ariel", 0)
     print(jb.clients)
     result = jb.does_client_exist("Ariel", 0, 200)
-    print(f"does client exist: {result}")
+    print(f"does client exist: {result}") 
