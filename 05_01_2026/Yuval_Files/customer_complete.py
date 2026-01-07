@@ -1,4 +1,4 @@
-# customer class that fits the bank_complete.py structure 
+# customer class that fits the bank_complete.py structure  
 class Customer:
     def __init__(self, name, age, balance=0):
         self.name = name

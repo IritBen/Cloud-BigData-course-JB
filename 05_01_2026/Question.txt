@@ -1,3 +1,5 @@
 1. In Customer_Complete - in method set_age if the condition is true it won't get to this part self.age = new_age ?
 
+2. In bank_complete - how the print the real costomer list and not the place in the memory: print(bank.get_all_customers())
 
+3. In bank_complete - in Bank can be many Banks. if we are running get_balance, how do we know for which bank/branch the balance is ?

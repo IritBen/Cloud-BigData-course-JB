@@ -88,31 +88,15 @@
 
 # Exercise Function (90):
 
-# def highest_even(*args):
-#     if len(args) == 0:
-#         print('The list is empty')
-#     else:
-#         highest_even = None
-#         for i in args:
-#             if highest_even is None:
-#                 if i % 2 == 0:
-#                     highest_even = i
-#             else:
-#                 if i % 2 == 0 and i > highest_even:
-#                     highest_even = i
-#     return highest_even
+# def highest_even(li):
+#     even = None
+#     for i in li:
+#         if even == None and i % 2 == 0:
+#             even = i
+#         else:
+#             if i % 2 == 0 and i > even:
+#                 even = i
+#     return even
 
-# result = print(highest_even([10,2,3,4,8,11]))
-
-def highest_even(li):
-    even = None
-    for i in li:
-        if even == None and i % 2 == 0:
-            even = i
-        else:
-            if i % 2 == 0 and i > even:
-                even = i
-    return even
-
-print(highest_even([10,2,3,4,8,11]))
+# print(highest_even([10,2,3,4,8,11]))
 

@@ -1,6 +1,5 @@
 # This is an example of Bank class it demonstrates the syntax of a class and how to create objects as well as the logic behind their methods and creation
-import customer_complete # must be in the same directory 
-
+from customer_complete import Customer # must be in the same directory 
 
 
 class Bank:
@@ -77,6 +76,7 @@ class Bank:
 
 if __name__ == "__main__":
     bank = Bank("My Bank", "New York", 1000)
+    bank2 = Bank("Mor", 'Tel Aviv', 2000)
     bank.deposit(500)
     bank.withdraw(200)
     print(f"Current balance is {bank.get_balance()}.")
@@ -85,9 +85,9 @@ if __name__ == "__main__":
     bank.register_customer(alice)
     print(alice.balance)
     bank.register_customer(bob)
-
+    print(bank.get_all_customers())
     bank.customer_deposit("Alice", 200)
     bank.customer_withdraw("Bob", 100)
-
     print(f"Current balance is {bank.get_balance()}.")
     print(f"Total balance across all customers is {bank.get_total_balance()}.")
+    print(bank.get_customer_info('Alice'))
