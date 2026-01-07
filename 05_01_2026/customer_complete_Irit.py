@@ -1,4 +1,4 @@
-# customer class that fits the bank_complete.py structure 
+# customer class that fits the bank_complete.py structure
 class Customer:
     def __init__(self, name, age, balance=0):
         self.name = name
@@ -39,3 +39,11 @@ class Customer:
     
     def set_name(self, new_name):
         self.name = new_name
+
+######################################
+
+Irit = Customer('Irit Ben', 36, 1000)
+Irit.set_age(30)
+print(Irit.age)
+print(Irit.get_balance())
+print(Irit.balance)
