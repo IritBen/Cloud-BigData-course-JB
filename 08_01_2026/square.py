@@ -14,7 +14,7 @@ class Square(Shape):
         self.length = length
 
     def calculate_area(self):
-        return self.length*self.length
+        return self.length**2
     
     def calculate_perimeter(self):
         return self.length*4
