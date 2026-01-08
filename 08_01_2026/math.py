@@ -22,5 +22,9 @@ class ArithmeticCalculation():
         else:
             return self.num1 / self.num2
 
-
-    
+if __name__ == "__main__":
+    test = ArithmeticCalculation(3,5)
+    print(test.addition())
+    print(test.substraction())
+    print(test.multiplication())
+    print(test.division())
