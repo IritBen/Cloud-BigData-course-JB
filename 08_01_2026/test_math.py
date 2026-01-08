@@ -1,7 +1,7 @@
 """This is the test class for the math class"""
 
 import unittest
-from math import ArithmeticCalculation
+from math_test import ArithmeticCalculation
 
 class TestCalculations(unittest.TestCase):
 
