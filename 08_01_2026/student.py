@@ -18,3 +18,4 @@ class Student(Child):
 if __name__ == "__main__":
     Irit = Student("Irit", 36, "JB")
     Irit.go_to_school()
+    Irit.who_am_i() # this is from child and not from student
