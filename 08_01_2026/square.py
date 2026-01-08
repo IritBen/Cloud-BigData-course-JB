@@ -14,7 +14,7 @@ class Square(Shape):
         self.length = length
 
     def calculate_area(self):
-        return self.l
+        return self.length*self.length
     
     def calculate_perimeter(self):
         return self.length*4
@@ -24,4 +24,6 @@ if __name__ == "__main__":
     square = Square(4,4,5)
     print(square.calculate_area())
     print(square.calculate_perimeter())
-        
+    print(square.how_many_edges())
+    #assert square.calculate_area == length ** 2 # asserts are tests. only if it's true it will continue.
+    print("hello world")

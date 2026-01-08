@@ -11,14 +11,14 @@ class Square(Shape):
         super().__init__(edges, nodes)
         self.edge_length = edge_length
  
-    def claculate_area(self):
+    def calculate_area(self):
         return self.edge_length
    
-    def calculate_parimeter(self):
+    def calculate_perimeter(self):
         return self.edge_length * 4
    
  
 if __name__ == "__main__":
     s = Square(4, 4, 1)
-    print(s.claculate_area())
-    print(s.calculate_parimeter())
+    print(s.calculate_area())
+    print(s.calculate_perimeter())
