@@ -54,19 +54,32 @@ import unittest
 ####### 3 ######
 ################
 
-def list_equals(lst1, lst2):
-    if len(lst1) != len(lst2):
-        return False
-    length = len(lst1)
-    counter = 0
-    while counter <= length-1:
-        if lst1[counter] != lst2[counter]:
-            return False
-        counter += 1
-    return True
+# def list_equals(lst1, lst2):
+#     if len(lst1) != len(lst2):
+#         return False
+#     length = len(lst1)
+#     counter = 0
+#     while counter <= length-1:
+#         if lst1[counter] != lst2[counter]:
+#             return False
+#         counter += 1
+#     return True
 
-class checkIfListsEqual(unittest.TestCase):
-    pass
+# class checkIfListsEqual(unittest.TestCase):
+    
+#     def setUp(self):
+#         self.lst1 = [1,2,3,5]
+#         self.lst2 = [1,2,3,4]
 
-if __name__ == "__main__":
-    pass
+#     def testIfListEquals(self):
+#         self.assertTrue(list_equals(self.lst1, self.lst2), 'The lists are not equal')
+
+# if __name__ == "__main__":
+#     unittest.main()
+
+
+################
+####### 4 ######
+################
+
+    
