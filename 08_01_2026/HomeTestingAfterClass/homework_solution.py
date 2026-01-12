@@ -66,6 +66,7 @@ def list_equals(lst1, lst2):
     return True
 
 class checkIfListsEqual(unittest.TestCase):
-    
+    pass
 
 if __name__ == "__main__":
+    pass
