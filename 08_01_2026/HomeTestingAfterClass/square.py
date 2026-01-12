@@ -18,3 +18,4 @@ if __name__ == "__main__":
     square = Square(4,4,5)
     print(f"The area of square with length of {square.length} is {square.calaulate_area()}")
     print(f"The parimeter of square with length of {square.length} is {square.calculate_parimeter()}")
+    
