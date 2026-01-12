@@ -19,4 +19,3 @@ if __name__ == "__main__":
     claus.who_am_i()
     claus.age = 16
     claus.who_am_i()
-    
