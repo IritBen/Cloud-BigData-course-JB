@@ -2,8 +2,9 @@
 This is the parent class, each parent has a name and age
 """
 
+from person import Person
  
-class Parent:
+class Parent(Person):
  
     def __init__(self, name, age):
         self.age = age
