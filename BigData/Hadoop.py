@@ -8,6 +8,7 @@
 # print(list(result))
 
 
-import functools
+# import functools
 
-print(functools.reduce(lambda x,y: x+y, [47,11,42,13]))
+# print(functools.reduce(lambda x,y: x+y, [47,11,42,13]))
+
