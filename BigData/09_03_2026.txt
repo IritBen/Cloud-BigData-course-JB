@@ -86,3 +86,4 @@ there are some structures for values
 אפשר להגדיר את הואליו בטייפ מסויים
 
 
+
