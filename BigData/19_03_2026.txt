@@ -1,0 +1,35 @@
+Big Data Pipelines:
+
+TOPIC has partitioning
+and then there is no limit and then we can write very fast
+and the consumer can get the data very fast
+
+Kafka is a scalable technology
+he gives us the option to stream the data in big scale 
+
+Data lake - files that being saved
+
+then in the DB we take only what matters because it is very expensive
+
+Real time applications - usually big data is in batches
+data goes to data lake
+
+Apache Flink - streaming. can work when he dividing the work between many machines
+In Flink calculations can be done
+
+Kafka is just flow, moves the data
+the transformations are happening in Flink
+
+Hadoop - to run map reduce 
+snowflake take it one level up
+Hadoop it not the same as Snowflake
+
+
+Apache spark - like Hadoop map reduce work - big data batch query
+
+Apache Hive - from eco system of Hadoop - SQL on top of Hadoop. Every SQL query it being translated to MapReduce
+
+Hive stores metadata in DB (separate DB)
+Maps physical files to table
+Maps line struct to table fields
+
