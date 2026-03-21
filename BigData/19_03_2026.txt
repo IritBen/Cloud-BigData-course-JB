@@ -33,3 +33,9 @@ Hive stores metadata in DB (separate DB)
 Maps physical files to table
 Maps line struct to table fields
 
+Systems that replace MapReduce because it's too slow:
+
+Google Dremel:
+1. Columnare data format
+2. Optimized for SQL performance
+
